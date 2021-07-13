@@ -1,0 +1,7 @@
+game.Players.PlayerAdded:Connect(function(Player)
+    if Player.Name == Player.DisplayName then
+        print("Same")
+      else
+        print("Not Same")
+    end
+end)
